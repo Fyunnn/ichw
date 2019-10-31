@@ -81,8 +81,7 @@ h.circle(200,360)
 m.circle(250,360)
 t.circle(310,360)
 
-n=int(turtle.numinput("planets", "speed\
-(Please give a integer between 1 and 15)", 7, minval=1, maxval=15))
+n=int(turtle.numinput("planets", "speed(Please give a integer between 1 and 15)", 7, minval=1, maxval=15))
 
 for i in range(99999999):
     s.circle(50,4.17*n)
